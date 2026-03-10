@@ -16,22 +16,6 @@
 
 <br>
 
-## 📁 프로젝트 구조
-
-```
-src
-└── main
-    ├── java/hello/thymeleaf
-    │   └── ThymeleafBasicApplication.java
-    └── resources
-        ├── static
-        │   └── index.html          # 전체 실습 목록 페이지
-        ├── templates/basic         # 기본 기능 템플릿
-        └── templates/template      # 템플릿 레이아웃 템플릿
-```
-
-<br>
-
 ## 📚 학습 내용
 
 ### 1. 텍스트 출력
@@ -112,24 +96,6 @@ src
 | `/template/fragment` | `th:fragment`, `th:insert`, `th:replace`를 이용한 템플릿 조각 재사용 |
 | `/template/layout` | 조각에 마크업을 전달하는 **유연한 레이아웃** 패턴 |
 | `/template/layoutExtend` | 공통 레이아웃을 상속받아 각 페이지에서 내용을 채우는 **레이아웃 상속** 패턴 |
-
-<br>
-
-## 🚀 실행 방법
-
-```bash
-# 1. 프로젝트 클론
-git clone https://github.com/hh-0704/thymeleaf-basic.git
-cd thymeleaf-basic
-
-# 2. 애플리케이션 실행
-./gradlew bootRun
-
-# 3. 브라우저에서 확인
-# http://localhost:8080
-```
-
-> `index.html` 에서 각 실습 항목으로 바로 이동할 수 있습니다.
 
 <br>
 
